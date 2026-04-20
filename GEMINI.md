@@ -2,6 +2,11 @@
 
 This document outlines the mandatory standards for all projects managed by GEMINI CLI.
 
+## Current Progress
+- [x] Create project directory and structure.
+- [x] Set up basic error handling and log utilities.
+- [x] Create and connect GitHub repository (`main` and `dev` branches).
+
 ## 1. Project Initialization & Structure
 - Always use `gh` (GitHub CLI) to initialize remote repositories.
 - Prompt for repository visibility (public vs. private) at initialization.
@@ -9,9 +14,10 @@ This document outlines the mandatory standards for all projects managed by GEMIN
   - `src/`: Source code.
   - `docs/`: Documentation and design files.
   - `tests/`: Test suites.
+  - `install/`: Installation logic.
 - Branching Strategy:
   - `main`: Stable code for end-users.
-  - `dev`: Active development.
+  - `dev`: Active development (current).
 
 ## 2. Project Tracking (GEMINI.md)
 - Every project must include a local `GEMINI.md` file to track progress and state.
