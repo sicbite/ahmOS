@@ -5,7 +5,7 @@ This document outlines the mandatory standards for all projects managed by GEMIN
 ## Current Progress
 - [x] Create project directory and structure.
 - [x] Set up basic error handling and log utilities.
-- [x] Create and connect GitHub repository (`main` and `dev` branches).
+- [x] Create and connect GitHub repository (`main` and `dev` branches, `dev` is default).
 
 ## 1. Project Initialization & Structure
 - Always use `gh` (GitHub CLI) to initialize remote repositories.
